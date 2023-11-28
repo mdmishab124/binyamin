@@ -22,12 +22,11 @@ const Portfolio = () => {
         {/* text */}
         <motion.div initial={{opacity: 0, y: '-80%'}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: '-80%'}} transition={transition1} onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler} className='flex flex-col lg:items-start'>
           <h1 className='h1'>Portfolio</h1>
-          <p className='mb-12 max-w-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+          <p className='mb-5 max-w-sm'>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             <b> Odio quo autem</b> quae aliquid animi impedit 
             porro quia neque laudantium est sint, quasi minima, sapiente eos.
-            <br /><br />
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus 
-            aut blanditiis fugit veritatis quis accusamus.
+            <br /><br />porro quia neque laudantium est sint, quasi minima, 
+            sapiente eos. minima, sapiente eos. minima, sapiente eos.
           </p>
           <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Hire me</Link>
         </motion.div>

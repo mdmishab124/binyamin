@@ -34,7 +34,7 @@ const Contact = () => {
           </form>
         </div>
         {/* img */}
-        <motion.div onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler} initial={{opacity: 0, y: '100%'}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: '100%'}} transition={{ transition: transition1, duration: 1.5}} className='lg:flex-1'> 
+        <motion.div onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler} initial={{opacity: 0, y: '100%'}} animate={{opacity: 1, y: 0}} exit={{opacity: 0, y: '100%'}} transition={{ transition: transition1, duration: 1.5}} className='lg:flex-1 hidden lg:block'> 
           <img src={BinRaj} alt="" />
         </motion.div>
       </div>
