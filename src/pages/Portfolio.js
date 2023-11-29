@@ -24,8 +24,7 @@ const Portfolio = () => {
           <h1 className='h1'>Portfolio</h1>
           <p className='mb-5 max-w-sm'>
           Proficient in model & travel photography, videography, and graphic design, I craft visual stories that transcend. 
-          Through striking imagery and innovative designs, <b>I capture the essence of moments,</b> creating captivating narratives 
-          that leave a lasting impact.
+          <br /><br /> Through striking imagery and innovative designs, I capture the essence of moments,
           </p>
           <Link to={'/contact'} className='btn mb-[30px] mx-auto lg:mx-0'>Hire me</Link>
         </motion.div>
