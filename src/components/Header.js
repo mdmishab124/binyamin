@@ -13,7 +13,8 @@ import { CursorContext } from '../context/CursorContext';
 const Header = () => {
   const { mouseEnterHandler, mouseLeaveHandler } = useContext(CursorContext);
   return (
-  <header className='fixed w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+  <header className='fixed gap-8 w-full px-[30px] lg:px-[100px] z-30 h-[100px] lg:h-[140px] flex items-center'>
+    <MobileNav />
     <div className="flex flex-col lg:flex-row lg:items-center w-full justify-between">
       {/* Logo */}
       <Link onMouseEnter={mouseEnterHandler} onMouseLeave={mouseLeaveHandler} to={'/'} className='max-w-[200px]'>
@@ -31,7 +32,7 @@ const Header = () => {
     <Socials />
 
     {/* mobile nav */}
-    <MobileNav />
+    
   </header>
   );
 };
